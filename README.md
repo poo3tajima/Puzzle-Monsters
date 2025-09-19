@@ -10,6 +10,7 @@ Pythonで書いたバトルゲームです。
 ## Requirement
 Windows用です。Macで動くかは不明。
 exe形式にしてあるので、Pythonのインストールは不要です。
+
 Windows10の場合、コマンドプロンプトで起動すると、色コードが表示されないのでプレイが出来ません。
 Microsoft Storeで「 Windows Terminal 」をインストールしてください。
 設定でPowerShellを初期起動に設定すると色コードが表示されるようになります。
@@ -17,8 +18,6 @@ Microsoft Storeで「 Windows Terminal 」をインストールしてくださ�
 ## Usage
 ウインドウをタテに大きく表示してプレイするとやりやすいです。
 Ctrl + C でプログラムを中断出来ます。
-中断するとウィンドウを閉じてしまうみたいなので、batファイルを作りました。
-batかexeのどちらかをダブルクリックして起動出来ます。
 
 ## Features
 
