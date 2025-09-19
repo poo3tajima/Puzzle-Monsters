@@ -22,10 +22,6 @@ exeを一度起動し、タイトルバーを右クリックして「設定」�
 
 Ctrl + C でプログラムを中断出来ます。
 
-## Features
-
-## Reference
-
 ## Author
 Kiyoshi Tajima
 programming.tajima@gmail.com
