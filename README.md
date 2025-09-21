@@ -1,5 +1,5 @@
 # name
-Puzzle-Monsters
+Puzzle & Monsters
 
 ## Overview
 Pythonで書いたバトルゲームです。
