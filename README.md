@@ -1,5 +1,5 @@
 # name
-Puzzle & Monsters
+Puzzle & Monsters　　パズル ＆ モンスターズ
 
 ## Overview
 Pythonで作成したテキストベースのバトルゲームです。<br>
