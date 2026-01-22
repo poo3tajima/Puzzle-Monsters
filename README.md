@@ -45,7 +45,7 @@ Macで実行すると警告画面が出ます。<br>
 (2) ターミナルを起動する。<br>
 (3) cd を最初に入力。<br>
 (4) cd desktop でデスクトップへ移動。<br>
-(5) ls でpuzmon_macがあるのを確認する。
+(5) ls でpuzmon_macがあるのを確認する。<br>
 (6) chmod +x puzmon_mac<br>
 (7) xattr -dr com.apple.quarantine puzmon_mac<br>
 を行うと、白から黒いアイコンに変わって、警告画面が出なくなります。
