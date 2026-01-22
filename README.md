@@ -40,13 +40,14 @@ puzmon_mac<br>
 Windowsで実行したときに警告画面が出たら、文章の中にある「詳細表示」を押すと、実行を選べるようになります。<br>
 
 Macで実行すると警告画面が出ます。<br>
-面倒ですがターミナルを起動して、アプリのある場所へ移動します。<br>
-(1) ファイルをデスクトップに置く。<br>
+面倒ですが以下を実行します。<br>
+(1) puzmon_macをデスクトップに移動。<br>
 (2) ターミナルを起動する。<br>
-(3) cd desktop でデスクトップへ移動。<br>
-(4) ls でpuzmon_macがあるのを確認する。
-(5) chmod +x puzmon_mac<br>
-(6) xattr -dr com.apple.quarantine puzmon_mac<br>
+(3) cd を最初に入力。<br>
+(4) cd desktop でデスクトップへ移動。<br>
+(5) ls でpuzmon_macがあるのを確認する。
+(6) chmod +x puzmon_mac<br>
+(7) xattr -dr com.apple.quarantine puzmon_mac<br>
 を行うと、白から黒いアイコンに変わって、警告画面が出なくなります。
 
 ## 作成者
