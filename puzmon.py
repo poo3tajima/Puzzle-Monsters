@@ -117,7 +117,7 @@ def show_party(party):
     print("--------------------------------------")
 
 
-# 1匹づつモンスターと戦う
+# 1体づつモンスターと戦う
 def do_battle(party, monster):
     print("")
     print("")
@@ -300,7 +300,7 @@ def swap_gem(gems, gem_start, gem_goll):
     print("")
 
 
-# 移動後の宝石を操作する  ★ここからつづき
+# 移動後の宝石を操作する
 def processing_gems(party, monster, gems):
     # リセット
     party.combo_count = 0
@@ -799,6 +799,7 @@ def main():
     print("～          ///////////////////           ～")
     print("～                                        ～")
     print("～～～～～～～～～～～～～～～～～～～～～～")
+    print("                Produced by Kiyoshi Tajima ")
     print("")
     print("")
     print(" ウインドウをタテにひろげて表示してください")
@@ -806,8 +807,8 @@ def main():
     input("ENTER")
 
     print("")
-    print("ドラゴンを討伐するため")
-    print(f"{player_name}たちは大陸のはて")
+    print("ドラゴンを討伐するため、")
+    print(f"{player_name}たちは大陸のはて、")
     print("けわしい山のふもとにあるダンジョンへたどりついた")
     print("")
     print(f"{player_name}につき従うのは四方守護聖獣")
