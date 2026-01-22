@@ -16,11 +16,18 @@ Pythonで作成したテキストベースのバトルゲームです。<br>
 聖獣のＨＰが全員０になったら、ゲームオーバーです。
 
 ## 仕様
-WindowsとMacでプレイできます。
+WindowsとMacでプレイできます。<br>
+Ctrl + C でプログラムを中断出来ます。<br>
 Windowsのコマンドプロンプトで文字サイズを変更するにはCtrl + ＋(－)で出来ます。<br>
 Macのターミナルで文字サイズを変更するにはCommand + ＋(－)で出来ます。<br>
 ウインドウをタテに大きくひろげてプレイするとやりやすいです。<br>
-Ctrl + C でプログラムを中断出来ます。
+
+＜Windows10の場合＞<br>
+コマンドプロンプトで起動すると、文字に色が付かないのでプレイが出来ません。<br>
+Microsoft Storeで「 Windows Terminal 」をインストールしてください。<br>
+exeを一度起動し、タイトルバーを右クリックして「設定」を選びます。<br>
+スタートアップタブの一番上の項目の「既定のプロファイル」を「Windows Power Shell」に変更してください。<br>
+再度exeを起動するとPower Shellで起ち上がり、文字に色が付いてプレイ出来ます。
 
 ## ダウンロード
 puzmon_win.exe<br>
@@ -32,19 +39,11 @@ puzmon_mac<br>
 ## 警告画面
 Windowsで実行したときに警告画面が出たら、文章の中にある「詳細表示」を押すと、実行を選べるようになります。<br>
 
-Macで実行すると警告画面が出ます。
-面倒ですが、ターミナルを起動して、アプリのある場所へ移動します。
-(1)chmod +x puzmon_mac
-(2)xattr -dr com.apple.quarantine puzmon_mac
+Macで実行すると警告画面が出ます。<br>
+面倒ですが、ターミナルを起動して、アプリのある場所へ移動します。<br>
+(1) chmod +x puzmon_mac<br>
+(2) xattr -dr com.apple.quarantine puzmon_mac<br>
 を行うと、黒いアイコンに変わって、警告画面が出なくなります。
-
-## 注意点
-＜Windows10の場合＞<br>
-コマンドプロンプトで起動すると、文字に色が付かないのでプレイが出来ません。<br>
-Microsoft Storeで「 Windows Terminal 」をインストールしてください。<br>
-exeを一度起動し、タイトルバーを右クリックして「設定」を選びます。<br>
-スタートアップタブの一番上の項目の「既定のプロファイル」を「Windows Power Shell」に変更してください。<br>
-再度exeを起動するとPower Shellで起ち上がり、文字に色が付いてプレイ出来ます。
 
 ## 作成者
 Kiyoshi Tajima<br>
